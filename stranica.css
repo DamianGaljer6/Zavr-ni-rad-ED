@@ -1,0 +1,174 @@
+/* Globalni stilovi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    
+}
+
+/* Navigacijski meni */
+header {
+    background: #333;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero sekcija */
+#hero {
+    background-image: url('london1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.hero-content h1 {
+    background-image: "london1.jpg";
+    font-size: 4rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* Sekcija o Londonu */
+.about {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Sekcija znamenitosti */
+.landmarks {
+    background-color: #f9f9f9;
+    padding: 2rem;
+}
+
+.landmarks h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.landmark-item {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.landmark-item img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.landmark-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.landmark-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Kontakt sekcija */
+.contact {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 0.7rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+footer p {
+    font-size: 1rem;
+}
